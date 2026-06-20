@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Budget Calculator - ChinaReady</title>
+
+    <link rel="icon" href="images/favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+
+    <a href="index.html" class="logo">ChinaReady</a>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cities.html">Cities</a></li>
+    <li><a href="universities.html">Universities</a></li>
+    <li><a href="scholarship.html">Scholarships</a></li>
+    <li><a href="budget.html" class="active">Budget</a></li>
+    <li><a href="journey.html">Journey</a></li>
+    <li><a href="mandarin.html">Mandarin</a></li>
+</ul>
+
+</nav>
+
+<section class="city-hero">
+
+    <img src="images/budget.jpg" alt="Student Budget">
+
+    <div class="hero-overlay hero-overlay-right">
+
+        <div class="hero-tags">
+            <span>💰 Budget Planning</span>
+            <span>🏠 Housing</span>
+            <span>🍜 Food Costs</span>
+            <span>🚇 Transport</span>
+        </div>
+
+        <p class="city-label">BUDGET CALCULATOR</p>
+
+        <h1>Study In China</h1>
+
+        <div class="hero-line"></div>
+
+        <p>
+            Estimate your yearly study expenses and compare living costs
+            across China's most popular student cities.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="city-counters">
+
+    <div class="stat-card">
+        <span class="stat-icon">🏫</span>
+        <h3>100+</h3>
+        <p>Universities</p>
+    </div>
+
+    <div class="stat-card">
+        <span class="stat-icon">💰</span>
+        <h3>¥20K+</h3>
+        <p>Average Tuition</p>
+    </div>
+
+    <div class="stat-card">
+        <span class="stat-icon">🏠</span>
+        <h3>¥12K+</h3>
+        <p>Living Cost</p>
+    </div>
+
+    <div class="stat-card">
+        <span class="stat-icon">🎓</span>
+        <h3>Scholarships</h3>
+        <p>Available</p>
+    </div>
+
+</section>
+
+
+<section class="budget-section">
+
+    <h2>Cost Calculator</h2>
+
+    <div class="calculator-box">
+
+        <input
+            id="tuition"
+            type="number"
+            placeholder="Annual Tuition (¥)"
+        >
+
+        <input
+            id="living"
+            type="number"
+            placeholder="Annual Living Cost (¥)"
+        >
+
+        <button onclick="calculateCost()">
+            Calculate Total Cost
+        </button>
+
+        <h3 id="result">¥0</h3>
+
+    </div>
+
+</section>
+
+
+<section class="city-life">
+
+    <p class="section-label">CITY COMPARISON</p>
+
+    <h2>Average Student Costs</h2>
+
+    <ul>
+        <li>Beijing: ¥40,000–70,000 / year</li>
+        <li>Shanghai: ¥45,000–80,000 / year</li>
+        <li>Shenzhen: ¥40,000–70,000 / year</li>
+        <li>Hangzhou: ¥30,000–55,000 / year</li>
+        <li>Nanjing: ¥25,000–45,000 / year</li>
+        <li>Chongqing: ¥20,000–40,000 / year</li>
+        <li>Xi'an: ¥20,000–40,000 / year</li>
+        <li>Harbin: ¥22,000–40,000 / year</li>
+    </ul>
+
+</section>
+
+
+<section class="city-info">
+
+    <p class="section-label">MONEY SAVING TIPS</p>
+
+    <div class="pros-tags">
+        <span>🍜 Eat On Campus</span>
+        <span>🚇 Use Public Transport</span>
+        <span>🏠 Dormitories</span>
+        <span>🎓 Scholarships</span>
+    </div>
+
+    <h2>How To Save Money</h2>
+
+    <div class="pros-cons">
+
+        <div class="pros-card">
+            <h3>✅ Smart Choices</h3>
+
+            <p>Apply for university scholarships</p>
+            <p>Choose affordable cities</p>
+            <p>Use student discounts</p>
+            <p>Live in university dormitories</p>
+        </div>
+
+        <div class="cons-card">
+            <h3>⚠️ Avoid</h3>
+
+            <p>Luxury apartments</p>
+            <p>Frequent food delivery</p>
+            <p>Private transportation</p>
+            <p>Unplanned spending</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="best-for">
+
+    <p class="section-label">BEST VALUE CITIES</p>
+
+    <h2>Budget Friendly Choices</h2>
+
+    <div class="tag">Chongqing</div>
+    <div class="tag">Xi'an</div>
+    <div class="tag">Harbin</div>
+    <div class="tag">Nanjing</div>
+    <div class="tag">Chengdu</div>
+
+</section>
+
+
+<footer class="footer">
+
+    <h3>ChinaReady</h3>
+
+    <p>
+        Helping international students choose the right city,
+        university and scholarship in China.
+    </p>
+
+     <p>
+        Project created by Suhana Parvin
+     </p>
+     
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
