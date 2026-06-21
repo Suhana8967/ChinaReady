@@ -1562,3 +1562,53 @@ h1,h2,h3{
     color:#D4A017;
     font-weight:600;
 }
+@media (max-width:768px){
+
+    .hero-overlay,
+    .hero-overlay-right{
+        position:relative;
+        left:auto;
+        right:auto;
+        top:auto;
+        transform:none;
+
+        margin:20px;
+        max-width:100%;
+    }
+
+    .hero-overlay h1{
+        font-size:48px;
+    }
+
+    .hero-overlay p{
+        font-size:18px;
+    }
+
+    .city-hero{
+        height:auto;
+        min-height:auto;
+        display:flex;
+        flex-direction:column;
+    }
+}
+@media (max-width:768px){
+
+    .hero{
+        width:95%;
+        flex-direction:column;
+        gap:30px;
+        text-align:center;
+    }
+
+    .hero-image{
+        width:100%;
+    }
+
+    .hero-image img{
+        width:100%;
+        height:auto;
+        max-height:400px;
+        display:block;
+    }
+
+}
