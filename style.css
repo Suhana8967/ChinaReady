@@ -79,12 +79,14 @@ color:var(--gold);
 }
 
 .hero-text{
-    flex:1;
+    font-size:20px;
+    line-height:1.8;
+    max-width:700px;
 }
 
 .hero h1{
-    font-size:82px;
-    line-height:1;
+    font-size:56px;
+    line-height:1.1;
     margin:20px 0;
     font-family:'Playfair Display',serif;
 }
@@ -355,7 +357,7 @@ color:white;
 
 .scholarship-hero img{
     width:100%;
-    height:450px;
+    height:300px;
     object-fit:cover;
     border-radius:20px;
     margin-bottom:60px;
@@ -1079,16 +1081,12 @@ h1,h2,h3{
     margin:12px 0;
 }
 .footer{
-    background:#0f172a;
-    color:white;
-
     text-align:center;
-
-    padding:60px 20px;
-
+    padding:40px;
     margin-top:80px;
+    background:#0f4d3a;
+    color:white;
 }
-
 .footer h3{
     font-size:32px;
     margin-bottom:15px;
@@ -1611,4 +1609,218 @@ h1,h2,h3{
         display:block;
     }
 
+}
+.calculator-section{
+    max-width:700px;
+    margin:80px auto;
+    padding:40px;
+    text-align:center;
+}
+
+.calculator-section h1{
+    margin-bottom:15px;
+}
+
+.calculator-section p{
+    margin-bottom:25px;
+}
+
+.calculator-section label{
+    display:block;
+    text-align:left;
+    margin-top:20px;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.calculator-section select,
+.calculator-section input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.calculator-section button{
+    margin-top:25px;
+    padding:14px 30px;
+    border:none;
+    border-radius:10px;
+    background:#c62828;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.calculator-section button:hover{
+    opacity:.9;
+}
+
+#result{
+    margin-top:30px;
+    padding:20px;
+    border-radius:12px;
+    background:#f5f5f5;
+    font-size:20px;
+    font-weight:600;
+}
+.search-box{
+    width:85%;
+    margin:40px auto;
+}
+
+.search-box input{
+    width:100%;
+    padding:16px 20px;
+    font-size:16px;
+    border:1px solid #ddd;
+    border-radius:12px;
+    outline:none;
+}
+
+.search-box input:focus{
+    border-color:#D4A017;
+}
+.saved-counter{
+    background:white;
+    padding:15px 25px;
+    border-radius:12px;
+    margin-bottom:25px;
+    font-weight:600;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+.save-btn.saved{
+    background:#d4af37;
+    color:white;
+    border:none;
+}
+.popup{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+}
+
+.popup-content{
+    background:white;
+    width:500px;
+    max-width:90%;
+    margin:100px auto;
+    padding:30px;
+    border-radius:15px;
+}
+
+#closePopup{
+    float:right;
+    cursor:pointer;
+    font-size:28px;
+}
+
+.details-btn{
+    background:#d4af37;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-left:10px;
+}
+.hero-content{
+    width: 85%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 56px;
+    line-height: 1.1;
+    margin: 15px 0;
+    color: #1c5c45;
+}
+
+.hero-text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+}
+/* JOURNEY PAGE */
+
+.journey-page{
+    width:85%;
+    margin:60px auto;
+}
+
+.journey-hero{
+    text-align:center;
+    margin-bottom:80px;
+}
+
+.journey-hero h1{
+    font-size:72px;
+    margin-bottom:20px;
+    color:#0f4d3a;
+}
+
+.journey-hero p{
+    font-size:20px;
+    color:#555;
+    max-width:800px;
+    margin:auto;
+}
+
+.journey-section{
+    margin-bottom:70px;
+}
+
+.journey-section h2{
+    font-size:42px;
+    color:#0f4d3a;
+    margin-bottom:30px;
+}
+
+.journey-card,
+.visa-card{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    border-left:6px solid #0f4d3a;
+}
+
+.journey-card h3,
+.visa-card h3{
+    margin-bottom:10px;
+}
+
+.checklist{
+    list-style:none;
+    padding:0;
+}
+
+.checklist li{
+    background:white;
+    padding:18px;
+    margin-bottom:15px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.06);
+}
+
+.visa-card{
+    margin-bottom:25px;
+}
+.dont-forget{
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    border-left: 6px solid #22c55e;
 }

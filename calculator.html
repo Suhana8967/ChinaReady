@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cost Calculator - ChinaReady</title>
+
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <a href="index.html" class="logo">ChinaReady</a>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cities.html">Cities</a></li>
+            <li><a href="universities.html">Universities</a></li>
+            <li><a href="scholarship.html">Scholarships</a></li>
+            <li><a href="budget.html">Budget</a></li>
+            <li><a href="journey.html">Journey</a></li>
+            <li><a href="mandarin.html">Mandarin</a></li>
+            <li><a href="calculator.html" class="active">Calculator</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="calculator-section">
+
+        <h1>China Living Cost Calculator</h1>
+
+        <p>
+            Estimate your yearly living expenses while studying in China.
+        </p>
+
+        <label for="city">Select City</label>
+
+<select id="city">
+
+<option value="2300">Beijing</option>
+<option value="2200">Shanghai</option>
+<option value="1800">Hangzhou</option>
+<option value="1700">Nanjing</option>
+<option value="1600">Wuhan</option>
+<option value="1500">Chengdu</option>
+<option value="1400">Xi'an</option>
+<option value="1500">Shenzhen</option>
+<option value="1400">Suzhou</option>
+<option value="1300">Harbin</option>
+<option value="1400">Qingdao</option>
+<option value="1200">Chongqing</option>
+
+</select>
+
+        <label for="months">Number of Months</label>
+
+        <input
+            type="number"
+            id="months"
+            min="1"
+            value="12">
+
+        <button onclick="calculateCost()">
+            Calculate Cost
+        </button>
+
+        <div id="result"></div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
